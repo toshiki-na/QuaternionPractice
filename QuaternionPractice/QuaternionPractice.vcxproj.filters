@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a2fb170c-d06b-4657-861e-9dcd15d3bb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constant">
+      <UniqueIdentifier>{5d940dff-9bc6-478f-9183-03fc1e9e0d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{e62b9dce-42f6-4c18-84d2-7e1ee1fe88d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainScene">
+      <UniqueIdentifier>{85d41ebb-5859-457f-b506-4f564a06d63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Satellite">
+      <UniqueIdentifier>{217e401d-97a2-4690-9e95-cda986d89ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{c2f29555-eea1-45f7-95e5-3c7e451f11b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sky">
+      <UniqueIdentifier>{685c4dc5-4953-4583-82ae-6b47820ce278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{4ba9fea9-89a7-4be1-888c-fd3429e8f26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimeManager">
+      <UniqueIdentifier>{be209648-6b1c-4bbd-989e-a0c7ce4219bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene\MainScne.cpp">
+      <Filter>MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Satellite\Satellite.cpp">
+      <Filter>Satellite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\Sky.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\GamePadInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystems.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyBoardInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\MouseInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager\TimeManager.cpp">
+      <Filter>TimeManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constant\ConstantValue.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene\MainScene.h">
+      <Filter>MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Satellite\Satellite.h">
+      <Filter>Satellite</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant\Tag.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Quaternion.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Vec3.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\Sky.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\GamePadInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystems.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyBoardInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\MouseInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager\TimeManager.h">
+      <Filter>TimeManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
